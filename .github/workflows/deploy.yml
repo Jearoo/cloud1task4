@@ -24,7 +24,8 @@ jobs:
 
       - name: Run Python Script
         run: |
-          python Assignmnet1/data_analysis.py
+          cd Assignmnet1
+          python data_analysis.py
 
       - name: Build Docker Image
         run: |
